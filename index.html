@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <h3>TASK LIST</h3>
+            <p>Add tasks to your list by typing to the right and <br>
+                pressing enter: </p>
+            <div id="content">
+                <!-- Task items will be added here -->
+            </div>
+        </div>
+
+        <div id="right">
+            <form action="" id="fo" onsubmit="event.preventDefault(); showTask();">
+                <input type="text" id="task" placeholder="Add Your Task">
+                <br>
+                <input type="submit" id="submit" value="Add">
+            </form>
+        </div>
+    </div>
+    <script src="x.js"></script>
+</body>
+</html>
